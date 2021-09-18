@@ -1,0 +1,42 @@
+.cabeza{
+    background-color: aquamarine;
+    width: auto;
+    height: 100px;
+}
+
+
+
+.cuerpo{
+    height: 900px;
+
+    background-image: url("./web.jpg");
+    color: cornsilk;
+}
+.pie{
+    background-color: blanchedalmond;
+    width: 100%;
+    height: 100px;
+    
+}
+.contenedor {
+    display: grid;
+  
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 50px auto;
+ }
+
+ .item-1 {
+    grid-row-start: 1; 
+    grid-row-end: 2; 
+    grid-column-start: 1;
+    grid-column-end:2;
+  }
+
+  .item-1 {
+    grid-row: 1; 
+    grid-column: 1;
+  }
+ 
